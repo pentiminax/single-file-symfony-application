@@ -8,7 +8,6 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "symfony/console": "7.4.*",
-        "symfony/dotenv": "7.4.*",
         "symfony/framework-bundle": "7.4.*",
         "symfony/runtime": "7.4.*"
     },
@@ -34,7 +33,7 @@
     },
     "scripts": {
         "auto-scripts": [
-            "php application.php cache:clear"
+            "php index.php cache:clear"
         ],
         "post-install-cmd": [
             "@auto-scripts"
