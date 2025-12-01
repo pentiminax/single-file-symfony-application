@@ -11,8 +11,6 @@
         "symfony/framework-bundle": "7.4.*",
         "symfony/runtime": "7.4.*"
     },
-    "require-dev": {
-    },
     "config": {
         "allow-plugins": {
             "php-http/discovery": true,
